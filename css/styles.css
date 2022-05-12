@@ -3,7 +3,7 @@
 
 :root {
     --bg-gray: #ddd;
-    --color-primary: #4d41c0;
+    --color-primary: #1a09ac;
     --wite: #fff;
     --taxt-gray: #4a4a4a;
     --color:#000000;
@@ -86,13 +86,16 @@ nav a{
     border-radius: 0 0 8px 8px;
     background-color: var(--wite);
     justify-content: space-between;
+    
 }
 
 .dsmovie-card-description h3{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     margin-bottom: 25px;
+    
 
+    
 }
 
 .dsmovie-btn, .dsmovie-btn:hover {
@@ -107,5 +110,11 @@ nav a{
     justify-content: center;
     border-radius: 4px;
     
+
+}
+
+.dsmovie-form-container{
+    padding: 40px 0;
+    max-width: 480px;
 
 }
